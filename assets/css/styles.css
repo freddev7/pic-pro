@@ -46,6 +46,17 @@ body {
 .secaoDetalhesConta__sobreUsuario p strong {
     display: block;
     font-weight: bold;
+    margin-top: 5px;
+}
+.secaoDetalhesConta__icones1 img {
+    width: 100%;
+    max-width: 40px;
+    margin-left: 450px;
+}
+.secaoDetalhesConta__icones2 img{
+    width: 100%;
+    max-width: 40px;
+    margin-left: 50px;
 }
 .secaoDetalhesConta__sobreSaldo {
     border-top: 1px solid rgba(0, 0, 0, 0.15);
@@ -62,7 +73,11 @@ body {
     display: block;
     font-weight: 600;
 }
-
+.secaoDetalhesConta__sobreSaldo a img { 
+    width: 100%;
+    max-width: 40px;
+    margin-left: 10px;
+}
 .secaoDetalhesConta__sobreSaldo button {
     background-color: #fff;
     border: none;
